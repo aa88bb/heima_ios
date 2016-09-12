@@ -1,22 +1,17 @@
 //
 //  main.m
-//  911classMethod
+//  911jicheng
 //
 //  Created by zhuchenglong on 16/9/11.
 //  Copyright © 2016年 zcl. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Person *p = [[Person alloc] init];
-        Book *b = [Book new];
-        b->_name = @"xyj";
-        
-        [p readWithBook:b];
-     
+        // insert code here...
+        NSLog(@"Hello, World!");
     }
     return 0;
 }

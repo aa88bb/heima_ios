@@ -1,22 +1,24 @@
 //
 //  main.m
-//  911classMethod
+//  911selector
 //
 //  Created by zhuchenglong on 16/9/11.
 //  Copyright © 2016年 zcl. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
+#import "person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Person *p = [[Person alloc] init];
-        Book *b = [Book new];
-        b->_name = @"xyj";
+        person *p = [person new];
         
-        [p readWithBook:b];
-     
+        SEL c = @selector(show);
+        [p performSelector:c];
+        
+        SEL c1 = @selector(display: );
+        [p performSelector:c1 withObject:@"haha"];
+        
     }
     return 0;
 }

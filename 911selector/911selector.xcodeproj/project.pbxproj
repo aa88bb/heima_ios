@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75C0A3E81D85EAD90046AFB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C0A3E71D85EAD90046AFB9 /* main.m */; };
-		75C0A3F01D85EB1B0046AFB9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C0A3EF1D85EB1B0046AFB9 /* Person.m */; };
-		75C0A3F31D85F14F0046AFB9 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C0A3F21D85F14F0046AFB9 /* Book.m */; };
+		75C0A42D1D86532E0046AFB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C0A42C1D86532E0046AFB9 /* main.m */; };
+		75C0A4381D86535E0046AFB9 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C0A4371D86535E0046AFB9 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		75C0A3E21D85EAD90046AFB9 /* CopyFiles */ = {
+		75C0A4271D86532E0046AFB9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		75C0A3E41D85EAD90046AFB9 /* 911classMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 911classMethod; sourceTree = BUILT_PRODUCTS_DIR; };
-		75C0A3E71D85EAD90046AFB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75C0A3EE1D85EB1B0046AFB9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		75C0A3EF1D85EB1B0046AFB9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		75C0A3F11D85F14F0046AFB9 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
-		75C0A3F21D85F14F0046AFB9 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		75C0A4291D86532E0046AFB9 /* 911selector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 911selector; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C0A42C1D86532E0046AFB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75C0A4361D86535E0046AFB9 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		75C0A4371D86535E0046AFB9 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75C0A3E11D85EAD90046AFB9 /* Frameworks */ = {
+		75C0A4261D86532E0046AFB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		75C0A3DB1D85EAD90046AFB9 = {
+		75C0A4201D86532E0046AFB9 = {
 			isa = PBXGroup;
 			children = (
-				75C0A3E61D85EAD90046AFB9 /* 911classMethod */,
-				75C0A3E51D85EAD90046AFB9 /* Products */,
+				75C0A42B1D86532E0046AFB9 /* 911selector */,
+				75C0A42A1D86532E0046AFB9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		75C0A3E51D85EAD90046AFB9 /* Products */ = {
+		75C0A42A1D86532E0046AFB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75C0A3E41D85EAD90046AFB9 /* 911classMethod */,
+				75C0A4291D86532E0046AFB9 /* 911selector */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75C0A3E61D85EAD90046AFB9 /* 911classMethod */ = {
+		75C0A42B1D86532E0046AFB9 /* 911selector */ = {
 			isa = PBXGroup;
 			children = (
-				75C0A3E71D85EAD90046AFB9 /* main.m */,
-				75C0A3EE1D85EB1B0046AFB9 /* Person.h */,
-				75C0A3EF1D85EB1B0046AFB9 /* Person.m */,
-				75C0A3F11D85F14F0046AFB9 /* Book.h */,
-				75C0A3F21D85F14F0046AFB9 /* Book.m */,
+				75C0A42C1D86532E0046AFB9 /* main.m */,
+				75C0A4361D86535E0046AFB9 /* person.h */,
+				75C0A4371D86535E0046AFB9 /* person.m */,
 			);
-			path = 911classMethod;
+			path = 911selector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75C0A3E31D85EAD90046AFB9 /* 911classMethod */ = {
+		75C0A4281D86532E0046AFB9 /* 911selector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75C0A3EB1D85EAD90046AFB9 /* Build configuration list for PBXNativeTarget "911classMethod" */;
+			buildConfigurationList = 75C0A4301D86532E0046AFB9 /* Build configuration list for PBXNativeTarget "911selector" */;
 			buildPhases = (
-				75C0A3E01D85EAD90046AFB9 /* Sources */,
-				75C0A3E11D85EAD90046AFB9 /* Frameworks */,
-				75C0A3E21D85EAD90046AFB9 /* CopyFiles */,
+				75C0A4251D86532E0046AFB9 /* Sources */,
+				75C0A4261D86532E0046AFB9 /* Frameworks */,
+				75C0A4271D86532E0046AFB9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 911classMethod;
-			productName = 911classMethod;
-			productReference = 75C0A3E41D85EAD90046AFB9 /* 911classMethod */;
+			name = 911selector;
+			productName = 911selector;
+			productReference = 75C0A4291D86532E0046AFB9 /* 911selector */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		75C0A3DC1D85EAD90046AFB9 /* Project object */ = {
+		75C0A4211D86532E0046AFB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = zcl;
 				TargetAttributes = {
-					75C0A3E31D85EAD90046AFB9 = {
+					75C0A4281D86532E0046AFB9 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 75C0A3DF1D85EAD90046AFB9 /* Build configuration list for PBXProject "911classMethod" */;
+			buildConfigurationList = 75C0A4241D86532E0046AFB9 /* Build configuration list for PBXProject "911selector" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 75C0A3DB1D85EAD90046AFB9;
-			productRefGroup = 75C0A3E51D85EAD90046AFB9 /* Products */;
+			mainGroup = 75C0A4201D86532E0046AFB9;
+			productRefGroup = 75C0A42A1D86532E0046AFB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75C0A3E31D85EAD90046AFB9 /* 911classMethod */,
+				75C0A4281D86532E0046AFB9 /* 911selector */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75C0A3E01D85EAD90046AFB9 /* Sources */ = {
+		75C0A4251D86532E0046AFB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75C0A3F01D85EB1B0046AFB9 /* Person.m in Sources */,
-				75C0A3F31D85F14F0046AFB9 /* Book.m in Sources */,
-				75C0A3E81D85EAD90046AFB9 /* main.m in Sources */,
+				75C0A4381D86535E0046AFB9 /* person.m in Sources */,
+				75C0A42D1D86532E0046AFB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		75C0A3E91D85EAD90046AFB9 /* Debug */ = {
+		75C0A42E1D86532E0046AFB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		75C0A3EA1D85EAD90046AFB9 /* Release */ = {
+		75C0A42F1D86532E0046AFB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,14 +212,14 @@
 			};
 			name = Release;
 		};
-		75C0A3EC1D85EAD90046AFB9 /* Debug */ = {
+		75C0A4311D86532E0046AFB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		75C0A3ED1D85EAD90046AFB9 /* Release */ = {
+		75C0A4321D86532E0046AFB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -235,24 +229,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75C0A3DF1D85EAD90046AFB9 /* Build configuration list for PBXProject "911classMethod" */ = {
+		75C0A4241D86532E0046AFB9 /* Build configuration list for PBXProject "911selector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75C0A3E91D85EAD90046AFB9 /* Debug */,
-				75C0A3EA1D85EAD90046AFB9 /* Release */,
+				75C0A42E1D86532E0046AFB9 /* Debug */,
+				75C0A42F1D86532E0046AFB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75C0A3EB1D85EAD90046AFB9 /* Build configuration list for PBXNativeTarget "911classMethod" */ = {
+		75C0A4301D86532E0046AFB9 /* Build configuration list for PBXNativeTarget "911selector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75C0A3EC1D85EAD90046AFB9 /* Debug */,
-				75C0A3ED1D85EAD90046AFB9 /* Release */,
+				75C0A4311D86532E0046AFB9 /* Debug */,
+				75C0A4321D86532E0046AFB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 75C0A3DC1D85EAD90046AFB9 /* Project object */;
+	rootObject = 75C0A4211D86532E0046AFB9 /* Project object */;
 }
