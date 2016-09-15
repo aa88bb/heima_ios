@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E2377D1BD7F3C800B15AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2377C1BD7F3C800B15AEE /* main.m */; };
+		18E237851BD7F64C00B15AEE /* AppleShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E237841BD7F64C00B15AEE /* AppleShop.m */; };
+		18E237881BD7F65600B15AEE /* Shelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E237871BD7F65600B15AEE /* Shelf.m */; };
+		18E2378B1BD7F66100B15AEE /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2378A1BD7F66100B15AEE /* Goods.m */; };
+		18E2378E1BD7F67100B15AEE /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2378D1BD7F67100B15AEE /* Phone.m */; };
+		18E237911BD7F67900B15AEE /* Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E237901BD7F67900B15AEE /* Pad.m */; };
+		18E237941BD7F68100B15AEE /* Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E237931BD7F68100B15AEE /* Mac.m */; };
+		18E237971BD7F69600B15AEE /* DZFather.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E237961BD7F69600B15AEE /* DZFather.m */; };
+		18E2379A1BD7F6AB00B15AEE /* DisCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E237991BD7F6AB00B15AEE /* DisCount.m */; };
+		18E2379D1BD7F6C100B15AEE /* MN.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2379C1BD7F6C100B15AEE /* MN.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18E237771BD7F3C800B15AEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18E237791BD7F3C800B15AEE /* 06-苹果店购物 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-苹果店购物"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2377C1BD7F3C800B15AEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E237831BD7F64C00B15AEE /* AppleShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleShop.h; sourceTree = "<group>"; };
+		18E237841BD7F64C00B15AEE /* AppleShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleShop.m; sourceTree = "<group>"; };
+		18E237861BD7F65600B15AEE /* Shelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shelf.h; sourceTree = "<group>"; };
+		18E237871BD7F65600B15AEE /* Shelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shelf.m; sourceTree = "<group>"; };
+		18E237891BD7F66100B15AEE /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		18E2378A1BD7F66100B15AEE /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		18E2378C1BD7F67100B15AEE /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		18E2378D1BD7F67100B15AEE /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
+		18E2378F1BD7F67900B15AEE /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
+		18E237901BD7F67900B15AEE /* Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pad.m; sourceTree = "<group>"; };
+		18E237921BD7F68100B15AEE /* Mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mac.h; sourceTree = "<group>"; };
+		18E237931BD7F68100B15AEE /* Mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mac.m; sourceTree = "<group>"; };
+		18E237951BD7F69600B15AEE /* DZFather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZFather.h; sourceTree = "<group>"; };
+		18E237961BD7F69600B15AEE /* DZFather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZFather.m; sourceTree = "<group>"; };
+		18E237981BD7F6AB00B15AEE /* DisCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCount.h; sourceTree = "<group>"; };
+		18E237991BD7F6AB00B15AEE /* DisCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisCount.m; sourceTree = "<group>"; };
+		18E2379B1BD7F6C100B15AEE /* MN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MN.h; sourceTree = "<group>"; };
+		18E2379C1BD7F6C100B15AEE /* MN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MN.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E237761BD7F3C800B15AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E237701BD7F3C800B15AEE = {
+			isa = PBXGroup;
+			children = (
+				18E2377B1BD7F3C800B15AEE /* 06-苹果店购物 */,
+				18E2377A1BD7F3C800B15AEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E2377A1BD7F3C800B15AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E237791BD7F3C800B15AEE /* 06-苹果店购物 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E2377B1BD7F3C800B15AEE /* 06-苹果店购物 */ = {
+			isa = PBXGroup;
+			children = (
+				18E237A11BD8132D00B15AEE /* Other */,
+				18E237A01BD8131F00B15AEE /* 超市类 */,
+				18E2379E1BD812F100B15AEE /* 商品类 */,
+				18E2379F1BD8130600B15AEE /* 打折类 */,
+			);
+			path = "06-苹果店购物";
+			sourceTree = "<group>";
+		};
+		18E2379E1BD812F100B15AEE /* 商品类 */ = {
+			isa = PBXGroup;
+			children = (
+				18E237891BD7F66100B15AEE /* Goods.h */,
+				18E2378A1BD7F66100B15AEE /* Goods.m */,
+				18E2378C1BD7F67100B15AEE /* Phone.h */,
+				18E2378D1BD7F67100B15AEE /* Phone.m */,
+				18E2378F1BD7F67900B15AEE /* Pad.h */,
+				18E237901BD7F67900B15AEE /* Pad.m */,
+				18E237921BD7F68100B15AEE /* Mac.h */,
+				18E237931BD7F68100B15AEE /* Mac.m */,
+			);
+			name = "商品类";
+			sourceTree = "<group>";
+		};
+		18E2379F1BD8130600B15AEE /* 打折类 */ = {
+			isa = PBXGroup;
+			children = (
+				18E237951BD7F69600B15AEE /* DZFather.h */,
+				18E237961BD7F69600B15AEE /* DZFather.m */,
+				18E237981BD7F6AB00B15AEE /* DisCount.h */,
+				18E237991BD7F6AB00B15AEE /* DisCount.m */,
+				18E2379B1BD7F6C100B15AEE /* MN.h */,
+				18E2379C1BD7F6C100B15AEE /* MN.m */,
+			);
+			name = "打折类";
+			sourceTree = "<group>";
+		};
+		18E237A01BD8131F00B15AEE /* 超市类 */ = {
+			isa = PBXGroup;
+			children = (
+				18E237831BD7F64C00B15AEE /* AppleShop.h */,
+				18E237841BD7F64C00B15AEE /* AppleShop.m */,
+				18E237861BD7F65600B15AEE /* Shelf.h */,
+				18E237871BD7F65600B15AEE /* Shelf.m */,
+			);
+			name = "超市类";
+			sourceTree = "<group>";
+		};
+		18E237A11BD8132D00B15AEE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18E2377C1BD7F3C800B15AEE /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E237781BD7F3C800B15AEE /* 06-苹果店购物 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E237801BD7F3C800B15AEE /* Build configuration list for PBXNativeTarget "06-苹果店购物" */;
+			buildPhases = (
+				18E237751BD7F3C800B15AEE /* Sources */,
+				18E237761BD7F3C800B15AEE /* Frameworks */,
+				18E237771BD7F3C800B15AEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-苹果店购物";
+			productName = "06-苹果店购物";
+			productReference = 18E237791BD7F3C800B15AEE /* 06-苹果店购物 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E237711BD7F3C800B15AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E237781BD7F3C800B15AEE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 18E237741BD7F3C800B15AEE /* Build configuration list for PBXProject "06-苹果店购物" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E237701BD7F3C800B15AEE;
+			productRefGroup = 18E2377A1BD7F3C800B15AEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E237781BD7F3C800B15AEE /* 06-苹果店购物 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E237751BD7F3C800B15AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E237941BD7F68100B15AEE /* Mac.m in Sources */,
+				18E237881BD7F65600B15AEE /* Shelf.m in Sources */,
+				18E2378E1BD7F67100B15AEE /* Phone.m in Sources */,
+				18E237851BD7F64C00B15AEE /* AppleShop.m in Sources */,
+				18E237911BD7F67900B15AEE /* Pad.m in Sources */,
+				18E237971BD7F69600B15AEE /* DZFather.m in Sources */,
+				18E2379A1BD7F6AB00B15AEE /* DisCount.m in Sources */,
+				18E2378B1BD7F66100B15AEE /* Goods.m in Sources */,
+				18E2379D1BD7F6C100B15AEE /* MN.m in Sources */,
+				18E2377D1BD7F3C800B15AEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18E2377E1BD7F3C800B15AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18E2377F1BD7F3C800B15AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18E237811BD7F3C800B15AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E237821BD7F3C800B15AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E237741BD7F3C800B15AEE /* Build configuration list for PBXProject "06-苹果店购物" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2377E1BD7F3C800B15AEE /* Debug */,
+				18E2377F1BD7F3C800B15AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E237801BD7F3C800B15AEE /* Build configuration list for PBXNativeTarget "06-苹果店购物" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E237811BD7F3C800B15AEE /* Debug */,
+				18E237821BD7F3C800B15AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E237711BD7F3C800B15AEE /* Project object */;
+}

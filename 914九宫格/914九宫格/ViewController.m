@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppModel.h"
 
 @interface ViewController ()
 @property(nonatomic,strong)NSArray *dataArray;
@@ -18,10 +19,24 @@
 -(NSArray *)dataArray{
     if(_dataArray == nil){
         NSString *path = [[NSBundle mainBundle] pathForResource:@"app.plist" ofType:nil];
-        _dataArray = [NSArray arrayWithContentsOfFile:path];
+       // _dataArray = [NSArray arrayWithContentsOfFile:path];
+        NSArray *tempArray = [NSArray arrayWithContentsOfFile:path];
+        
+        NSMutableArray *muta = [NSMutableArray array];
+        for (NSDictionary *dict in tempArray){
+//            AppModel *appModel = [[AppModel alloc] init];
+//            appModel.name = dict[@"name"];
+//            appModel.icon = dict[@"icon"];
+            AppModel *appModel = [[AppModel alloc] initWithDict:dict];
+            
+            [muta addObject:appModel];
+        }
+        
+        _dataArray = muta;
     }
     return _dataArray;
 }
+
 
 
 
@@ -36,53 +51,78 @@
     CGFloat yellowViewHeight = 95;
     CGFloat margin = (self.view.frame.size.width - column * yellowViewWidth )/(column+1);
 
-    
+    //dataArray index
+  
 
-    for(int j=0;j<4;j++){
-        for(int i = 0; i<column;i++){
-            CGFloat yellowViewX = (i+1)*margin +i*yellowViewWidth;
-            CGFloat yellowViewY = (j+1)*margin +j*yellowViewHeight;
-            UIView *yellowView = [[UIView alloc] initWithFrame:CGRectMake(yellowViewX, yellowViewY, yellowViewWidth, yellowViewHeight)];
-            
-            [yellowView setBackgroundColor:[UIColor yellowColor]];
-            
-            [self.view addSubview:yellowView];
-            
-            //add subview
-
-            CGFloat imageViewX = (yellowViewWidth - imageViewWidth)/2;
-            
-            UIImageView *iconImaageView = [[UIImageView alloc] initWithFrame:CGRectMake(imageViewX, imageViewY, imageViewWidth, imageViewWidth)];
-            [iconImaageView setBackgroundColor:[UIColor redColor]];
-            
-            [yellowView addSubview:iconImaageView];
-            
-            //add label
-            CGFloat labelY = CGRectGetMaxY(iconImaageView.frame) +2;
-            UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, labelY, yellowViewWidth, 15)];
-            nameLabel.text = @"爸爸去哪儿";
-            nameLabel.textAlignment = NSTextAlignmentCenter;
-            nameLabel.font = [UIFont systemFontOfSize:15];
-            [yellowView addSubview:nameLabel];
-            
-            //add button
-            CGFloat buttonWidth = imageViewWidth +10;
-            CGFloat buttonHeight = 20;
-            CGFloat buttonX = (yellowViewWidth - buttonWidth)/2;
-            CGFloat buttonY = CGRectGetMaxY(nameLabel.frame)+2;
-            UIButton *downloadButton = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, buttonY, buttonWidth, buttonHeight)];
-            
-            [downloadButton setBackgroundImage:[UIImage imageNamed:@"buttongreen"] forState:UIControlStateNormal];
-            [downloadButton setBackgroundImage:[UIImage imageNamed:@"buttongreen_highlighted"] forState:UIControlStateHighlighted];
-            [downloadButton setTitle:@"下载" forState:UIControlStateNormal];
-            downloadButton.titleLabel.font = [UIFont systemFontOfSize:15];
-            [yellowView addSubview:downloadButton];
-            
+    for(int i=0;i<self.dataArray.count;i++){
         
-        }
+        NSInteger rowIndex = i / column;
+        NSInteger colunmIndex = i % column;
         
+        CGFloat yellowViewX = (colunmIndex+1)*margin +colunmIndex*yellowViewWidth;
+        CGFloat yellowViewY = (rowIndex+1)*margin +rowIndex*yellowViewHeight;
+        UIView *yellowView = [[UIView alloc] initWithFrame:CGRectMake(yellowViewX, yellowViewY, yellowViewWidth, yellowViewHeight)];
+        
+        [yellowView setBackgroundColor:[UIColor yellowColor]];
+        
+        [self.view addSubview:yellowView];
+        
+        
+        
+        //NSDictionary *dict = self.dataArray[i];
+        AppModel *appModel = self.dataArray[i];
+        
+        
+        
+        
+        
+        
+        
+        //add icon
+        
+        CGFloat imageViewX = (yellowViewWidth - imageViewWidth)/2;
+        
+        UIImageView *iconImaageView = [[UIImageView alloc] initWithFrame:CGRectMake(imageViewX, imageViewY, imageViewWidth, imageViewWidth)];
+        //[iconImaageView setBackgroundColor:[UIColor redColor]];
+        
+       // iconImaageView.image = [UIImage imageNamed:dict[@"icon"]];
+        iconImaageView.image = [UIImage imageNamed:appModel.icon];
+        
+        [yellowView addSubview:iconImaageView];
+        
+        //add label
+        CGFloat labelY = CGRectGetMaxY(iconImaageView.frame) +2;
+        UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, labelY, yellowViewWidth, 15)];
+        //nameLabel.text = @"爸爸去哪儿";
+        //nameLabel.text = dict[@"name"];
+        nameLabel.text = appModel.name;
+        nameLabel.textAlignment = NSTextAlignmentCenter;
+        nameLabel.font = [UIFont systemFontOfSize:15];
+        [yellowView addSubview:nameLabel];
+        
+        //add button
+        CGFloat buttonWidth = imageViewWidth +10;
+        CGFloat buttonHeight = 20;
+        CGFloat buttonX = (yellowViewWidth - buttonWidth)/2;
+        CGFloat buttonY = CGRectGetMaxY(nameLabel.frame)+2;
+        UIButton *downloadButton = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, buttonY, buttonWidth, buttonHeight)];
+        
+        [downloadButton setBackgroundImage:[UIImage imageNamed:@"buttongreen"] forState:UIControlStateNormal];
+        [downloadButton setBackgroundImage:[UIImage imageNamed:@"buttongreen_highlighted"] forState:UIControlStateHighlighted];
+        [downloadButton setTitle:@"下载" forState:UIControlStateNormal];
+        downloadButton.titleLabel.font = [UIFont systemFontOfSize:15];
+        [yellowView addSubview:downloadButton];
     }
     
+//    for(int j=0;j<4;j++){   //hang
+//        for(int i = 0; i<column;i++){
+//           
+//            
+//        
+//        }
+//        
+//    }
+//    
 
     
 }

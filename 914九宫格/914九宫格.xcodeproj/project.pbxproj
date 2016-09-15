@@ -14,6 +14,7 @@
 		75A430441D89B3FE0088E913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A430431D89B3FE0088E913 /* Assets.xcassets */; };
 		75A430471D89B3FE0088E913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A430451D89B3FE0088E913 /* LaunchScreen.storyboard */; };
 		75A4304F1D89CB3B0088E913 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A4304E1D89CB3B0088E913 /* app.plist */; };
+		75E622781D89EF7D00EE6CA6 /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E622771D89EF7D00EE6CA6 /* AppModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		75A430461D89B3FE0088E913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75A430481D89B3FE0088E913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75A4304E1D89CB3B0088E913 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
+		75E622761D89EF7D00EE6CA6 /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		75E622771D89EF7D00EE6CA6 /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				75A4303D1D89B3FE0088E913 /* ViewController.h */,
 				75A4303E1D89B3FE0088E913 /* ViewController.m */,
 				75A430401D89B3FE0088E913 /* Main.storyboard */,
+				75E622761D89EF7D00EE6CA6 /* AppModel.h */,
+				75E622771D89EF7D00EE6CA6 /* AppModel.m */,
 				75A430431D89B3FE0088E913 /* Assets.xcassets */,
 				75A430451D89B3FE0088E913 /* LaunchScreen.storyboard */,
 				75A430481D89B3FE0088E913 /* Info.plist */,
@@ -156,6 +161,7 @@
 				75A4303F1D89B3FE0088E913 /* ViewController.m in Sources */,
 				75A4303C1D89B3FE0088E913 /* AppDelegate.m in Sources */,
 				75A430391D89B3FE0088E913 /* main.m in Sources */,
+				75E622781D89EF7D00EE6CA6 /* AppModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				75A4304D1D89B3FE0088E913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
